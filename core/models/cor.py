@@ -5,4 +5,4 @@ class Cor (models.Model):
     class Meta:
         verbose_name_plural = "cores"
     def __str__(self):
-        return f"({self.id}) {self.nome}"
+        return f"ID da cor: ({self.id}) {self.nome}"
